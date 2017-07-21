@@ -1,0 +1,20 @@
+body{
+	background-color:$fondo;
+}
+
+.carousel{
+   width: $img_repsonsive;
+   height: 100vh;
+    overflow: hidden;
+}
+.carousel .item {
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.navbar-default{
+	background-color:$fondo;
+	border-color:transparent;
+}
