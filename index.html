@@ -5,7 +5,7 @@
 	<title>Proyecto Sass</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto: 100,300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
@@ -20,16 +20,28 @@
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<span class="icon-bar">Features</span>
+							<span class="icon-bar">Sections</span>
+							<span class="icon-bar">Shop</span>
+							<span class="icon-bar">Blog</span>
+							<span class="icon-bar">Contact</span>
 						</button>
 						<a class="navbar-brand" href="#">Hestia Pro</a>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="dropdown">
-					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cloud" aria-hidden="true"></i>Features<span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i>Sections</a></li>
+								<li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shop</a></li>
+								<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a></li>
+								<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
+								<li class="shop"><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Buy Now</a></li>
+					          </ul>
+					        </li>
+							<li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-clipboard" aria-hidden="true"></i>Section<span class="caret"></span></a>
 					          <ul class="dropdown-menu">
 					            <li><a href="#">Action</a></li>
 					            <li><a href="#">Another action</a></li>
@@ -40,62 +52,288 @@
 					            <li><a href="#">One more separated link</a></li>
 					          </ul>
 					        </li>
-							<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-							<li><a href="#">Sass</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Shop</a></li>
+							<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i>Blog</a></li>
+							<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
+							<li class="shop"><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Buy Now</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</nav>
-		<div class="container">
-	<div class="row">
-	   <div id="myCarousel" class="carousel slide">
-      <!-- Items -->
-        <div class="carousel-inner">
-            <div class="active item"> 
-                <img src="img/img_slider_1.jpg" class="img_responsive"></div>
-            <div class="item">
-                <img src="img/img_slider_2.jpg" class="img_responsive"></div>
-        </div>
-            <!-- Navigation -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-        </div>
+	</header>	
+<!-- Carousel -->
+<section class="carusel-fotos">
+	<div class="container-fluid">
+		<div class="row">
+		   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	      <!-- Items -->
+	        <div class="carousel-inner">
+	            <div class="item active"> 
+	                <img src="img/img_slider_1.jpg" class="img_responsive">
+	                <div class="container">
+			        	<div class="carousel-caption">
+			        		<h1 class="title-nav">Simple Awesome</h1>
+			        		<p class="p-nav">Beatiful, Elegantly Coded</p>
+			        		<a href="#" class="btn btn-primary btn-lg boton_ver">SEE MORE</a>
+			        	</div>
+			        </div>
+	            </div>
+	            <div class="item" >
+	                <img src="img/img_slider_2.jpg" class="img_responsive">
+	                <div class="container">
+			        	<div class="carousel-caption">
+			        		<h1 class="title-nav">Slick Material Design</h1>
+			        		<p class="p-nav">Beatiful, Elegantly Coded, One-Page Wordpress Theme for Business</p>
+			        		<a href="#" class="btn btn-primary btn-lg boton_ver">SEE MORE</a>
+			        	</div>
+	            </div>
+	        </div>
+	            <!-- Navigation -->
+	            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	                <span class="glyphicon glyphicon-chevron-left"></span>
+	            </a>
+	            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	                <span class="glyphicon glyphicon-chevron-right"></span>
+	            </a>
+	        </div>
+		  </div>
+	    </div>
 	</div>
-</div>
-	</header>
-
-	<!-- section uno -->
-	<section class="seccion_uno">
+</section>
+	<!-- section contenido -->
+<div id="seccion_body">
+	<section class="body-part-one">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-xs-12 container-text">
+				<div class="col-lg-12 col-md-12 col-xs-12 text-center">
+					<h5 class="description-box">Nullam blandit gravida viverra. Etiam turpis erat, sagittis sit amet felis non, porta porta justo. Integer ornare nibh nulla, id pulvinar metus cursus semper. Vivamus dictum pellentesque mi. Vivamus ipsum tellus, mattis non ex sed, semper sodales ligula. Vivamus luctus lorem.</h5>
+					<div class="contenido-box-one">
+						<div class="caja-box-one col-md-4 col-lg-4">
+							<div class="row">
+								<div class="info">
+									<a href="#">
+										<div class="icon">
+											<i class="fa fa-th icon-th"></i>
+										</div>
+										<h4 class="title-box-uno">Responsive</h4>	
+									</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid soluta adipisci beatae alias earum nobis incidunt voluptates delectus, obcaecati at, atque quos animi placeat corrupti, quis officiis nam nisi? Quae.</p>
+								</div>
+							</div>
+						</div>		
+						<div class="caja-box-one col-md-4 col-lg-4">
+							<div class="row">
+								<div class="info">
+									<a href="#">
+										<div class="icon">
+											<i class="fa fa-th-list icon-list"></i>
+										</div>
+										<h4 class="title-box-uno">Quality</h4>	
+									</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid soluta adipisci beatae alias earum nobis incidunt voluptates delectus, obcaecati at, atque quos animi placeat corrupti, quis officiis nam nisi? Quae.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">	
+							<div class="caja-box-one col-md-4 col-lg-4">
+								<div class="info">
+									<a href="#">
+										<div class="icon">
+											<i class="fa fa-reorder icon-redo"></i>
+										</div>
+										<h4 class="title-box-uno">Support</h4>	
+									</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid soluta adipisci beatae alias earum nobis incidunt voluptates delectus, obcaecati at, atque quos animi placeat corrupti, quis officiis nam nisi? Quae.</p>
+								</div>
+							</div>
+						</div>
+					</div> 
 				</div>
+			</div>
+		</div>
+	<div class="part-dos">
+			<div class="container">
 				<div class="row">
-					<div class="col-lg-offset-1 col-lg-11 col-md-12 col-xs-12">
-						
+					<div class="box-dos col-md-5 col-lg-5 text-left">
+						<h2 class="title-box-dos">Who are we now</h2>
+						<p class="p-box-dos">Ideate integrate food-truck agile ideate thinker-maker-doer user story intuitive hacker integrate workflow Steve Jobs. Steve Jobs pair programming food-truck big data long shadow SpaceTeam agile agile affordances.<br>User centered design food-truck experiential minimum viable product human-centered design prototype viral quantitative vs. qualitative.</p>	
+					</div>
+					<div class="box-dos col-md-7 col-lg-7">
+						<img src="img/img_tablet.png" alt="tablet" width="550">
+					</div>
+				</div>
+				<div class="video-box">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/pYOJNOJfJxU" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+	</div>
+	<div class="part-tres">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-lg-12 text-center">
+					<h2 class="title-boxing">Products</h2>
+					<h5 class="description-box">Showcase your products in this beautiful shop section.</h5>
+				</div>
+			</div>
+			<div class="contenedor-fotos">
+				<div class="row">	
+					<div class="caja-blanca col-md-3 col-lg-3">
+						<img src="img/img_product_1.png" alt="" width="230" class="produc_1">
+						<h6 class="title-tarjeta">FASHION</h6>
+						<h4 class="sub-title-tarjeta">Embroidered Dress</h4>
+						<p class="p-tarjetas">Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
+						<h3>£100.00</h3>
+					</div>
+					<div class="caja-blanca col-md-3 col-lg-3">
+						<img src="img/img_product_2.png" alt="" width="230" class="produc_1">
+						<h6 class="title-tarjeta">FASHION</h6>
+						<h4 class="sub-title-tarjeta">Embroidered Dress</h4>
+						<p class="p-tarjetas">Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
+						<h3>£100.00</h3>
+					</div>
+					<div class="caja-blanca col-md-3 col-lg-3">
+						<img src="img/img_product_3.png" alt="" width="230" class="produc_1">
+						<h6 class="title-tarjeta">FASHION</h6>
+						<h4 class="sub-title-tarjeta">Embroidered Dress</h4>
+						<p class="p-tarjetas">Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
+						<h3>£100.00</h3>
+					</div>
+					<div class="caja-blanca col-md-3 col-lg-3">
+						<img src="img/img_product_4.jpg" alt="" width="230" class="produc_1">
+						<h6 class="title-tarjeta">FASHION</h6>
+						<h4 class="sub-title-tarjeta">Embroidered Dress</h4>
+						<p class="p-tarjetas">Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
+						<h3>£100.00</h3>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="part-cuatro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12 text-center">
+					<h2 class="title-boxing">Portfolio</h2>
+					<h5 class="description-box">Showcase your work effectively and in an attractive form that your prospective clients will love.</h5>
+					<div class="fotografias-display">
+						<div class="row">
+							<div class="col-md-4 col-lg-4">
+								<img src="img/img_portafolio_1.jpg" alt="" width="350" class="portfolio-img">
+							</div>
+							<div class="col-md-4 col-lg-4">
+								<img src="img/img_portafolio_2.jpg" alt="" width="350" class="portfolio-img">
+							</div>
+							<div class="col-md-4 col-lg-4">
+								<img src="img/img_portafolio_3.jpg" alt="" width="350" class="portfolio-img">
+							</div>
+						</div>
+					</div>	
+						<div class="fotografias-inline">	
+							<div class="row">
+								<div class="col-md-6 col-lg-6">
+									<img src="img/img_portafolio_4.jpg" alt="" width="550" class="portfolio-img">
+								</div>
+								<div class="col-md-6 col-lg-6">
+									<img src="img/img_portafolio_5.jpg" alt="" width="550" class="portfolio-img">
+								</div>
+							</div>
+						</div>
+						<div class="fotografias-inline">
+							<div class="row">
+								<div class="col-md-4 col-lg-4">
+									<img src="img/img_portafolio_6.jpg" alt="" width="350" class="portfolio-img">
+								</div>
+								<div class="col-md-4 col-lg-4">
+									<img src="img/img_portafolio_7.jpg" alt="" width="350" class="portfolio-img">
+								</div>
+								<div class="col-md-4 col-lg-4">
+									<img src="img/img_portafolio_8.jpg" alt="" width="350" class="portfolio-img">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="fotografias-display col-md-12 col-lg-12 text-center">
+								<h2 class="title-boxing">Meet our team</h2>
+								<h5 class="description-box">Prove that you have real people working for you, with some nice looking profile pictures and links to social media.</h5>
+							</div>
+						</div>
+						<div class="row fotografias-display">
+							<div class=" col-md-6 col-lg-6">
+								<div class="date foto-persona col-md-2 col-lg-2">
+									<img src="img/img_team_1.jpg" alt="" width="200" class="img-personas">
+								</div>
+								<div class=" datos-persona col-md-6 col-lg-6 text-left">
+									<h5 class="title-personas">Desmond Purpleson</h5>
+									<h6>CEO</h6>
+									<p class="p-personas-user">Locavore pinterest chambray affogato art party, forage coloring book typewriter. Bitters cold selfies, retro celiac sartorial mustache.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-6">
+								<div class="date foto-persona col-md-2 col-lg-2">
+									<img src="img/img_team_2.jpg" alt="" width="200" class="img-personas">
+								</div>
+								<div class="datos-persona col-md-6 col-lg-6 text-left">
+									<h5 class="title-personas">Desmond Purpleson</h5>
+									<h6>CEO</h6>
+									<p class="p-personas-user">Locavore pinterest chambray affogato art party, forage coloring book typewriter. Bitters cold selfies, retro celiac sartorial mustache.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row fotografias-display">
+							<div class=" col-md-6 col-lg-6">
+								<div class="date foto-persona col-md-2 col-lg-2">
+									<img src="img/img_team_3.jpg" alt="" width="200" class="img-personas">
+								</div>
+								<div class=" datos-persona col-md-6 col-lg-6 text-left">
+									<h5 class="title-personas">Desmond Purpleson</h5>
+									<h6>CEO</h6>
+									<p class="p-personas-user">Locavore pinterest chambray affogato art party, forage coloring book typewriter. Bitters cold selfies, retro celiac sartorial mustache.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-6">
+								<div class="date foto-persona col-md-2 col-lg-2">
+									<img src="img/img_team_4.jpg" alt="" width="200" class="img-personas">
+								</div>
+								<div class="datos-persona col-md-6 col-lg-6 text-left">
+									<h5 class="title-personas">Desmond Purpleson</h5>
+									<h6>CEO</h6>
+									<p class="p-personas-user">Locavore pinterest chambray affogato art party, forage coloring book typewriter. Bitters cold selfies, retro celiac sartorial mustache.</p>
+								</div>
+							</div>
+						</div>				
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-
+		<div class="part-cinco">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-lg-4">
+						<h1>Choose a plan for your next project</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-md-4 col-lg-4">
+						<div class="caja-blanca-dos">
+							<h5 class="personal">TREASURE CHEST LITE</h5>
+									<h1 class="gigante">56</h1>
+									<p class="nuevo">Save 1 Koala per month.</p>
+									<hr>
+									<p class="nuevo">1 T-shirt</p>
+									<hr>
+									<p class="nuevo">1 Visits per month</p>
+									<hr>
+									<p class="nuevo">PublicApi access</p>
+							</div>
+					</div>
+					<div class="col-md-4 col-lg-4">
+						
+					</div>
+				</div>
+			</div>
+		</div>		
+</section>	
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>	

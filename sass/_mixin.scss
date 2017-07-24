@@ -1,0 +1,13 @@
+@mixin baseCaja(){
+	padding: 50px;
+	box-shadow: $box_sombra;
+	 display: block;
+}
+
+@mixin titleBoxing(){
+	font-size: 40px;
+	font-weight: 700;
+	color: #3c4858;
+	 text-decoration: none;
+    word-wrap: break-word;
+}

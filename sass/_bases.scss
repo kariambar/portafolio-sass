@@ -1,20 +1,229 @@
 body{
 	background-color:$fondo;
 }
+.navbar-color{
+  background-color: white;
+  height: 60px;
+}
 
 .carousel{
    width: $img_repsonsive;
    height: 100vh;
     overflow: hidden;
 }
-.carousel .item {
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -ms-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
-}
+
 .navbar-default{
 	background-color:$fondo;
 	border-color:transparent;
+  color:$color-p;
+}
+.navbar-fixed-top{
+  top:25px;
+}
+.dropdown{
+  color:$color-p;
+}
+.navbar > .container .navbar-brand{
+  color: $color-p;
+}
+.navbar-default .navbar-nav > li > a {
+    color: $color-p;
+}
+li.shop{
+  background-color: $color_fucsia;
+  border-radius: 6px;
+}
+.carousel-caption{
+  margin-bottom: 360px;
+}
+
+.title-nav{
+  font-size: $title-h1;
+  font-weight: 700;
+}
+.btn-primary{
+    background-color: $color_fucsia;
+    line-height:20px;
+    outline: 0;
+    margin-top:20px;
+    border: 0;
+    font-size:13px;
+    padding: 17px 26px;
+}
+
+#seccion_body{
+  background-color: $fondo_principal;
+  height: $alto-caja;
+}
+.body-part-one{
+  background-color: $fondo_principal;
+  height:$alto-caja;
+  border-radius: 6px;
+  margin-top: -10rem;
+  position: absolute;
+  width: 95%;
+  box-shadow: $box_sombra;
+  text-align: center;
+  margin-left: 3rem;
+}
+
+.description-box{
+  width: $description_boxes;
+  color: #999;
+  text-align: center;
+  margin-left: 20%;
+  font-weight: 100;
+  margin-top: 5rem;
+  font-size: 17.5px;
+  line-height: 27.125px;
+}
+
+.caja-box-one{
+  padding-left: 20px;
+}
+
+.icon{
+  font-size: 60px;
+  margin-top: 8rem;
+}
+.icon-th{
+  color: $color_fucsia;
+}
+.title-box-uno{
+      color: #3c4858;
+      font-weight: 700;
+      font-size: 20px;
+      text-decoration: none;
+      list-style: none;
+
+
+}
+.icon-list{
+  color: #00bcd4;
+}
+.icon-redo{
+  color: #4caf50;
+}
+
+.part-dos{
+  background-image: url(../img/img_city.jpg);
+   box-shadow: $box_sombra;
+  display: block;
+  margin-top: 10rem;
+  background-size: cover;
+  background-attachment:fixed;
+  opacity: 1;
+  padding:50px;
+  }
+
+.title-box-dos{
+  color:$color-p;
+  font-size: 40px;
+  font-weight: 700;
+}  
+.p-box-dos{
+  color:$color-p;
+  font-size: 17.5px;
+    line-height: 27.125px;
+}
+.box-dos{
+  margin-top: 10rem;
+}
+.video-box{
+   margin-top: 10rem;
+}
+.part-tres{
+   box-shadow: $box_sombra;
+  background-color: #f0f0f0;
+  padding:50px;
+}
+.title-boxing{
+  @include titleBoxing();
+}
+.contenedor-fotos{
+  margin-top: 10rem;
+}
+.caja-blanca{
+  height: 100vh;
+  background-color: white;
+  margin-left: 15px;
+  width: 23%;
+  border-radius: 6px;
+   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+.produc_1{
+  box-shadow: $box_sombra;
+  margin-top: -25px;
+  border-radius: 7px;
+}
+.title-tarjeta{
+  color: $color_fucsia;
+    margin-top: 18px;
+    font-size: 15px;
+    font-weight: $font_weight;
+}
+.sub-title-tarjeta{
+  @include titleBoxing();
+  font-size: 20px;
+}
+.p-tarjetas{
+      margin: 0 0 10px;
+      font-weight: 100;
+      font-size: 15px;
+      line-height: 27.125px;
+}
+.part-cuatro{
+  box-shadow: $box_sombra;
+  background-color: white;
+  padding:50px;
+}
+.portfolio-img{
+    box-shadow: $box_sombra;
+  border-radius: 7px;
+    transition: .5s ease;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+.fotografias-display{
+  margin-top: 10rem;
+}
+.portfolio-img:hover{
+  opacity: 0.4;
+}
+.fotografias-inline{
+  margin-top: 5rem;
+}
+.date{
+  display: inline-block;
+}
+.datos-persona{
+  margin-left: 15rem;
+}
+.img-personas{
+   box-shadow: $box_sombra;
+  border-radius: 7px;
+}
+.title-personas{
+  font-size: 20px;
+  font-weight: 700;
+}
+.p-personas-user{
+  font-weight: 100;
+  color:gray;
+}
+.part-cinco{
+   box-shadow: $box_sombra;
+  background-color: whitesmoke;
+  padding:50px;
+}
+.caja-blanca-dos{
+  box-shadow: $box_sombra;
+  background-color:$color-p;
+  width: 80%;
+  height: 90vh;
+  border-radius: 7px;
+  margin-left: 10rem;
+}
+.personal{
+  padding-top: 5rem;
 }

@@ -5800,20 +5800,227 @@ button.close {
 body {
   background-color: transparent; }
 
+.navbar-color {
+  background-color: white;
+  height: 60px; }
+
 .carousel {
   width: 100%;
   height: 100vh;
   overflow: hidden; }
 
-.carousel .item {
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -ms-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s; }
-
 .navbar-default {
   background-color: transparent;
-  border-color: transparent; }
+  border-color: transparent;
+  color: white; }
+
+.navbar-fixed-top {
+  top: 25px; }
+
+.dropdown {
+  color: white; }
+
+.navbar > .container .navbar-brand {
+  color: white; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white; }
+
+li.shop {
+  background-color: #E91E63;
+  border-radius: 6px; }
+
+.carousel-caption {
+  margin-bottom: 360px; }
+
+.title-nav {
+  font-size: 70px;
+  font-weight: 700; }
+
+.btn-primary {
+  background-color: #E91E63;
+  line-height: 20px;
+  outline: 0;
+  margin-top: 20px;
+  border: 0;
+  font-size: 13px;
+  padding: 17px 26px; }
+
+#seccion_body {
+  background-color: #FFFFFF;
+  height: 100vh; }
+
+.body-part-one {
+  background-color: #FFFFFF;
+  height: 100vh;
+  border-radius: 6px;
+  margin-top: -10rem;
+  position: absolute;
+  width: 95%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-left: 3rem; }
+
+.description-box {
+  width: 60%;
+  color: #999;
+  text-align: center;
+  margin-left: 20%;
+  font-weight: 100;
+  margin-top: 5rem;
+  font-size: 17.5px;
+  line-height: 27.125px; }
+
+.caja-box-one {
+  padding-left: 20px; }
+
+.icon {
+  font-size: 60px;
+  margin-top: 8rem; }
+
+.icon-th {
+  color: #E91E63; }
+
+.title-box-uno {
+  color: #3c4858;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none; }
+
+.icon-list {
+  color: #00bcd4; }
+
+.icon-redo {
+  color: #4caf50; }
+
+.part-dos {
+  background-image: url(../img/img_city.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-top: 10rem;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  padding: 50px; }
+
+.title-box-dos {
+  color: white;
+  font-size: 40px;
+  font-weight: 700; }
+
+.p-box-dos {
+  color: white;
+  font-size: 17.5px;
+  line-height: 27.125px; }
+
+.box-dos {
+  margin-top: 10rem; }
+
+.video-box {
+  margin-top: 10rem; }
+
+.part-tres {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #f0f0f0;
+  padding: 50px; }
+
+.title-boxing {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3c4858;
+  text-decoration: none;
+  word-wrap: break-word; }
+
+.contenedor-fotos {
+  margin-top: 10rem; }
+
+.caja-blanca {
+  height: 100vh;
+  background-color: white;
+  margin-left: 15px;
+  width: 23%;
+  border-radius: 6px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1); }
+
+.produc_1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -25px;
+  border-radius: 7px; }
+
+.title-tarjeta {
+  color: #E91E63;
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 700; }
+
+.sub-title-tarjeta {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3c4858;
+  text-decoration: none;
+  word-wrap: break-word;
+  font-size: 20px; }
+
+.p-tarjetas {
+  margin: 0 0 10px;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 27.125px; }
+
+.part-cuatro {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  padding: 50px; }
+
+.portfolio-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  cursor: pointer; }
+
+.fotografias-display {
+  margin-top: 10rem; }
+
+.portfolio-img:hover {
+  opacity: 0.4; }
+
+.fotografias-inline {
+  margin-top: 5rem; }
+
+.date {
+  display: inline-block; }
+
+.datos-persona {
+  margin-left: 15rem; }
+
+.img-personas {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7px; }
+
+.title-personas {
+  font-size: 20px;
+  font-weight: 700; }
+
+.p-personas-user {
+  font-weight: 100;
+  color: gray; }
+
+.part-cinco {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: whitesmoke;
+  padding: 50px; }
+
+.caja-blanca-dos {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  width: 80%;
+  height: 90vh;
+  border-radius: 7px;
+  margin-left: 10rem; }
+
+.personal {
+  padding-top: 5rem; }
 
 /*# sourceMappingURL=main.css.map */
