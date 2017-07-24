@@ -227,3 +227,24 @@ li.shop{
 .personal{
   padding-top: 5rem;
 }
+.caja-blanca-trans{
+  background-color: transparent;
+  width: 70%;
+  height: 90vh;
+  border-radius: 7px;
+  margin-left: 10rem;
+}
+.part-seis{
+  box-shadow: $box_sombra;
+  background-color: white;
+  padding:50px;
+  margin-bottom: 30px;
+}
+.img-personas-dos{
+    box-shadow: $box_sombra;
+}
+.part-siete{
+  background-image: url(../img/about.jpg);
+  padding:50px;
+  height: 50vh;
+}
